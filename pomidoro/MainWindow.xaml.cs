@@ -116,7 +116,7 @@ namespace pomidoro
             {
                 timer.Stop();
                 StartB.Content = "Старт";
-                StartB.Background = Brushes.Green;
+                StartB.Background = Brushes.Purple;
             }
         }
         private void ToggleTimer()
