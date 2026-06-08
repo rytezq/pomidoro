@@ -11,7 +11,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="Time"
+        <TextBox Name="Timer"
                 Grid.Row="0"
                 Margin="10"
                  Padding="20"
@@ -21,19 +21,25 @@
                  FontSize="30"
                  BorderThickness="2"
                  BorderBrush="Purple"
-                 FontWeight="Bold">
-        </TextBox>
+                 FontWeight="Bold"/>
+        <TextBlock Name="StatusText"
+                   Grid.Row="1"
+                   Margin="10"
+                   FontSize="16"
+                   TextAlignment="Center"
+                   Text="Готов к работе"/>
+
         <StackPanel Grid.Row="1"
                     Orientation="Horizontal"
                     HorizontalAlignment="Center">
-            <Button x:Name="Start"
+            <Button x:Name="StartB"
                     Content="Старт" 
                     Height="54" 
                     Width="144"
                     Background="Purple"
                     Foreground="White"
                     Click="Start_Click"/>
-            <Button x:Name="Reset"
+            <Button x:Name="ResetB"
                     Content="Сброс" 
                     Height="54" 
                     Width="144"
