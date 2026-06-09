@@ -25,8 +25,8 @@ namespace pomidoro
         private DispatcherTimer timer;
         private TimeSpan currentTime;
         private bool isWorkPeriod = true;
-        private const int work_time = 25;
-        private const int break_time = 5;
+        private const int work_time = 5;
+        private const int break_time = 2;
         public MainWindow()
         {
             InitializeComponent();
